@@ -41,7 +41,7 @@ public abstract class NoteDatabase extends RoomDatabase {
         };
 
     private static class PopulateDbAsyncTask extends AsyncTask<Void, Void, Void>{
-        private NoteDao noteDao;
+        private final NoteDao noteDao;
 
         private PopulateDbAsyncTask(NoteDatabase db){
             noteDao = db.noteDao();
