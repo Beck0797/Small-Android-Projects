@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ArchitectureExample">
-        <activity android:name=".AddNoteActivity"
+        <activity android:name=".AddEditNoteActivity"
             android:parentActivityName=".MainActivity"
             android:launchMode="singleTop"
             />
